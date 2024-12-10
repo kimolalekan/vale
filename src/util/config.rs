@@ -1,0 +1,16 @@
+pub const MAX_SUPPLY: u64 = 1_000_000_000;
+pub const MAX_BLOCK_SIZE_BYTES: u64 = 1_000_000;
+pub const BLOCK_TIME_SECONDS: u64 = 120;
+pub const DIFFICULTY_WINDOW: usize = 720;
+pub const MIN_DIFFICULTY: usize = 1_000;
+pub const ADJUSTMENT_INTERVAL: usize = 10;
+pub const BASE_FEE_PER_BYTE: f64 = 1.0;
+pub const FEE_MULTIPLIER: f64 = 1.0;
+pub const LOW_CONGESTION: f64 = 0.8;
+pub const NORMAL_CONGESTION: f64 = 1.0;
+pub const MODERATE_CONGESTION: f64 = 1.3;
+pub const HIGH_CONGESTION: f64 = 1.5;
+pub const CONTRACT_BASE_FEE: u64 = 2;
+pub const CONTRACT_MINIMUM_LIMIT: u64 = 1_000_000_000;
+pub const CONTRACT_MAXIMUM_SIZE: u64 = 5_000_000_000;
+pub const DB_PATH: &str = ".valtoria";
